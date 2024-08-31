@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="module" src="./node_modules/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+    <!-- Bootstrap Icons Pack-->
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bg-black">
+<div class="view">
+    <header class="name fw-bold text-warning">
+        Typing Speed Test
+    </header>
+    <div class="wrapper">
+        <input type="text" class="input-field">
+        <div class="content-box">
+            <div class="typing-text">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <div class="content pt-xl-4">
+        <div class="result-details d-flex fs-5 justify-content-evenly text-warning">
+            <div class="time d-flex ps-xl-5">
+                <p>Time Left:</p>
+                <span class="ps-2"><b>60</b>s</span>
+            </div>
+            <div class="mistake d-flex ps-5">
+                <p>Mistakes:</p>
+                <span class="ps-2">0</span>
+            </div>
+            <div class="wpm d-flex ps-5 pe-5">
+                <p>WPM:</p>
+                <span class="ps-2">0</span>
+            </div>
+            <div class="cpm d-flex">
+                <p>CPM:</p>
+                <span class="ps-2">0</span>
+            </div>
+        </div>
+        <div class="align-items-center justify-content-center d-flex">
+            <button class=" text-bg-danger">
+                <div class="rounded-circle" >
+                    Reset
+                </div></button>
+        </div>
+
+    </div>
+</div>
+
+<script src="./js/paragraphs.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
