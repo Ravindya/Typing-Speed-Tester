@@ -20,9 +20,9 @@ License
 
 
 ## Screenshots
-![Screenshot of Finger-fly Typing Tester](/assets/SH1.png)
-![Screenshot of Finger-fly Typing Tester](/assets/SH2.png)
-![Screenshot of Finger-fly Typing Tester](/assets/SH3.png)
+![Screenshot of Typing-Speed-Tester](/assets/SH1.png)
+![Screenshot of Typing-Speed-Tester](/assets/SH2.png)
+![Screenshot of Typing-Speed-Tester](/assets/SH3.png)
 
 ## Technologies Used
 HTML: For the structure of the game.<br>
